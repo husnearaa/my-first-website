@@ -50,7 +50,7 @@
 }
 
 .title{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -67,7 +67,6 @@ margin-bottom: 15px;
     background-color: red;
     color: white;
     border: none;
-    /* border-radius: 5px; */
 
 }
 
@@ -75,6 +74,9 @@ margin-bottom: 15px;
     color: blue;
     
 }
+
+
+/* about part start from here  */
 
 .about-container{
     display: flex;
@@ -89,6 +91,8 @@ margin-bottom: 15px;
 .about-title{
     text-align: center;
     padding: 20px;
+    margin: 10px;
+    cursor: pointer;
 
 }
 
@@ -106,12 +110,16 @@ margin-bottom: 15px;
 
 .box{
     width: 230px;
-    height: 280px;
-    box-shadow: 6px 10px 20px gray;
+    height: 320px;
+    box-shadow: 4px 4px 15px gray;
+    border-radius: 5px;
+    border: 1px solid powderblue;
     background-color: black;
     text-align: center;
+    justify-content: center;
     color: white;
-    padding: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 30px powderblue;
 }
 
 .icon{
@@ -119,9 +127,9 @@ margin-bottom: 15px;
 }
 
 .box-btn{
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(32, 32, 32);
     margin-top: 10px;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 .box-title{
     padding: 10px;
@@ -133,11 +141,68 @@ margin-bottom: 15px;
 .service-container{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
-    background-color: rgb(26, 25, 25);
+    padding: 20px;   
+}
+
+.back{
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(58, 58, 58));
+    height: 620px;
 }
 
 .title-bg{
-    background-color: rgb(26, 25, 25);
     color: white;
 }
+
+/* from here footer css start */
+
+.footer-container{
+    background-color: rgb(21, 21, 21);
+     color: white;
+    
+     display: flex;
+     justify-content: space-around;
+     list-style-type: none;
+ }
+ .im{
+      width: 150px; 
+ }
+ .bb{
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-top: 80px;
+     margin-bottom: 150px;
+     
+     
+ }
+ .ti{
+     padding: 10px;
+ }
+ .bol{
+     font-size: 30px;
+     font-weight: bolder;
+     
+ }
+ .bol:hover{
+     color: blue;
+     cursor: pointer;
+ }
+ .uk{
+     background-color: rgb(21, 21, 21);
+     color: white;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+ hr{
+     width: 70%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 10px;
+ }
+ .copy{
+     justify-content: center;
+     text-align: center;
+     margin-top: 10px;
+     padding-bottom: 10px;
+ }
