@@ -72,6 +72,35 @@ margin-bottom: 15px;
 }
 
 .btn:hover{
-    color: black;
+    color: blue;
     
 }
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+   padding: 10px;
+
+}
+
+
+.about-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.about-description1{
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+
+
+.about-description2{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
